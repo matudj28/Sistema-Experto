@@ -1,0 +1,259 @@
+{
+    "__v": 1,
+    "description": "Proyecto Aviones",
+    "entries": [
+      {
+        "name": "Puede aterrizar",
+        "description": "Todos los pasos se cumplieron correctamente",
+        "props": [
+            "Usted quiere aterrizar(SI) o despegar(NO)",
+            "La llave de combustible se encuentra abierta",
+            "Se llevo a mezcla rica",
+            "Se encendio la bomba electrica de combustible",
+            "los flaps estan en la posicion correcta",
+            "Los respaldos estan rectos",
+            "Los cinturones estan ajustados"
+        ]
+      },
+      {
+        "name": "Los cinturones no estan bien puestos.",
+        "description": "Es el ultimo paso a cumplir, no es posible aterrizar si los cinturones no estan bien colocados, abrochese el cinturon para evitar posibles catastrofes",
+        "props": [
+          "Usted quiere aterrizar(SI) o despegar(NO)",
+          "La llave de combustible se encuentra abierta",
+          "Se llevo a mezcla rica",
+          "Se encendio la bomba electrica de combustible",
+          "los flaps estan en la posicion correcta",
+          "Los respaldos estan rectos"
+        ]
+      },
+      {
+        "name": "Los respaldos no estan rectos",
+        "description": "Es el quinto paso a cumplir, fijese en acomodar correctamente los respaldos",
+        "props": [
+          "Usted quiere aterrizar(SI) o despegar(NO)",
+          "La llave de combustible se encuentra abierta",
+          "Se llevo a mezcla rica",
+          "Se encendio la bomba electrica de combustible",
+          "los flaps estan en la posicion correcta"
+        ]
+      },
+      {
+        "name": "Los flaps no estan en la posicion correcta",
+        "description": "Es el cuarto paso a cumplir, acomode los flaps dependiendo las condiciones de aterrizaje",
+        "props": [
+          "Usted quiere aterrizar(SI) o despegar(NO)",
+          "La llave de combustible se encuentra abierta",
+          "Se llevo a mezcla rica",
+          "Se encendio la bomba electrica de combustible"
+        ]
+      },
+      {
+        "name": "Encienda la bomba de combustible",
+        "description": "Es el tercer paso a cumplir, debe encender la bomba de combustible por las dudas porque si las condiciones no son las favorables, se puede apagar el motor en mitad del aire",
+        "props": [
+          "Usted quiere aterrizar(SI) o despegar(NO)",
+          "La llave de combustible se encuentra abierta",
+          "Se llevo a mezcla rica"
+        ]
+      },
+      {
+        "name": "Lleve la mezcla a rica",
+        "description": "Es el segundo paso a cumplir, es importante que se lleve la mezcla a rica para que el motor no se apague en mitad del vuelo",
+        "props": [
+          "Usted quiere aterrizar(SI) o despegar(NO)",
+          "La llave de combustible se encuentra abierta"
+        ]
+      },
+      {
+        "name": "Abra la llave de combustible",
+        "description": "Es el primer paso a cumplir, tiene que abrir la llave de combustible para que no se apague el motor del avion",
+        "props": [
+          "Usted quiere aterrizar(SI) o despegar(NO)"
+        ]
+      },
+      {
+        "name": "Puede despegar",
+        "description": "Se cumplieron todos los requisitos para poder despegar",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla",
+          "Se trabo el cebador",
+          "Los respaldos estan erectos",
+          "Se abrocharon los cinturones",
+          "Se ajusto el trim al medio",
+          "Los alerones estan en optimas condiciones",
+          "Se trabaron las puertas"
+        ]
+      },
+      {
+        "name": "Cierre las puertas correctamente",
+        "description": "Es el ultimo paso a cumplir, se debe cerrar bien las puertas",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla",
+          "Se trabo el cebador",
+          "Los respaldos estan erectos",
+          "Se abrocharon los cinturones",
+          "Se ajusto el trim al medio",
+          "Los alerones estan en optimas condiciones"
+        ]
+      },
+      {
+        "name": "Revise los alerones",
+        "description": "Es el decimoprimer paso a cumplir, se deben verificar las condiciones de los alerones, en caso de presentar fallas, se debe apagar el avion y llevar a un mecanico",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla",
+          "Se trabo el cebador",
+          "Los respaldos estan erectos",
+          "Se abrocharon los cinturones",
+          "Se ajusto el trim al medio"
+        ]
+      },
+      {
+        "name": "Ajuste el trim",
+        "description": "Es el decimo paso a cumplir, si el trim no es bien ajustado puede crear una descompensacion en el avion causando una catastrofe",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla",
+          "Se trabo el cebador",
+          "Los respaldos estan erectos",
+          "Se abrocharon los cinturones"
+        ]
+      },
+      {
+        "name": "Abrochense los cinturones",
+        "description": "Es el noveno paso a cumplir, si o si se deben abrochar los cinturones para evitar posibles lesiones",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla",
+          "Se trabo el cebador",
+          "Los respaldos estan erectos"
+        ]
+      },
+      {
+        "name": "Acomode bien los respaldos",
+        "description": "Es el octavo paso a cumplir, se deben acomodar bien los respaldos por si alguno anda suelto",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla",
+          "Se trabo el cebador"
+        ]
+      },
+      {
+        "name": "Trabe el cebador",
+        "description": "Es el septimo paso a cumplir, se debe trabar el cebador para evitar que el motor falle y cause un accidente",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro",
+          "Se ajusto el control de mezcla"
+        ]
+      },
+      {
+        "name": "Ajuste el control de mezcla",
+        "description": "Es el sexto paso a cumplir, se debe ajustar el control de mezcla a rica para que el motor tenga la maxima cantidad de combustible",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta",
+          "El calefactor del carburador se cerro"
+        ]
+      },
+      {
+        "name": "Cierre el calefactor del carburador",
+        "description": "Es el quinto paso a cumplir, tiene que cerrar el calefactor porque puede calentar el motor de mas y dañarlo",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde",
+          "los flaps se encuentran en la posicion correcta"
+        ]
+      },
+      {
+        "name": "Acomode los flaps",
+        "description": "Es el cuarto paso a cumplir, es importante que se acomoden los flaps dependiendo la meteorologia de la zona y la condicion de pista",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "Los intrumentos del motor estan en arco verde"
+        ]
+      },
+      {
+        "name": "Volver a la plataforma y apagar el motor",
+        "description": "Si no se encuentra en el arco verde, hay que ir a la plataforma del taller y debe revisarlo un mecanico, puede ser que no este funcionando bien la bomba mecanica de combustible",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "La presion de combustible esta mal"
+        ]
+      },
+      
+      {
+        "name": "Volver a la plataforma y apagar el motor para darselo al mecanico",
+        "description": "Si no se encuentra en el arco verde, se debe mandar al taller. Puede tener tapado el radiador de aceite",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "La temperatura de aceite esta mal"
+        ]
+      },
+      {
+        "name": "Volver a la plataforma y apagar el motor para llevarlo a un mecanico",
+        "description": "Si no se encuentra en el arco verde puede ser que no este funcionando bien la bomba de aceite, entonces se debe llevar al mecanico de forma urgente",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida",
+          "La presion de aceite esta mal"
+        ]
+      },
+      {
+        "name": "Entonces volver a hacer el sistema experto",
+        "description": "No se encontro ninguna falla en su consulta",
+        "props": [
+          "La llave de combustible esta abierta",
+          "La bomba electrica esta encendida"
+        ]
+      },
+      {
+        "name": "Encienda la bomba electrica",
+        "description": "Es el segundo paso a cumplir, se debe asegurar de que la bomba electrica esta andando para que, en caso de fallar la bomba de combustible mecanica, la electrica de combustible igual",
+        "props": [
+          "La llave de combustible esta abierta"
+        ]
+      },
+      {
+        "name": "Tiene que abrir la llave de combustible",
+        "description": "Es el primer paso a cumplir, tiene que abrir la llave de combustible para evitar que el motor del avion se apague",
+        "props": []
+      }
+    ]
+}
