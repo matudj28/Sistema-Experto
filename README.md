@@ -1,7 +1,7 @@
 # Sistema Experto procedimientos de aterrizaje y despegue
 
 # Este proyecto fue posible gracias a los usuarios ychavoya, juanchoc y Pachekoko.
-## Link de su proyecto: https://github.com/ychavoya/sistema-experto-python
+# Link de su proyecto: https://github.com/ychavoya/sistema-experto-python
 
 
 
